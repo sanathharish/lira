@@ -1,0 +1,111 @@
+# ===============================
+# Python / LangChain / LangGraph
+# ===============================
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local environment variables
+.env
+.env.local
+.env.dev
+.env.*.local
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ===============================
+# Chroma / Vector DB / Embeddings
+# ===============================
+
+# ChromaDB new & legacy storage dirs
+chroma/
+chromadb/
+.chromadb/
+.chroma/
+vectorstore/
+db/
+data/
+
+# Any persisted client storage
+*duckdb*
+*.parquet
+
+# ===============================
+# Node / Next.js (when you add UI)
+# ===============================
+
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# Next.js env
+.next/
+.vercel/
+
+# Vercel project files
+.vercel/
+
+# ===============================
+# OS / Editor / Misc
+# ===============================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode
+.vscode/
+.history/
+
+# JetBrains
+.idea/
+
+# ===============================
+# Cache + temp
+# ===============================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Python profiling
+.prof
+
+# Coverage data
+htmlcov/
+.coverage
+coverage.xml
+.cache/
+
+# ===============================
+# Ollama (if any model weights stored)
+# ===============================
+
+ollama/
+*.bin
+*.gguf

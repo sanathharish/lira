@@ -1,0 +1,5 @@
+Quantum computing uses qubits instead of classical bits. 
+Qubits can exist in multiple states at once due to superposition.
+This allows quantum algorithms like Shor's and Grover's to outperform classical computers.
+Quantum entanglement enables correlation between particles even over distance.
+These properties make quantum machines suitable for optimization, simulation, and cryptography tasks.
