@@ -1,0 +1,16 @@
+mutation CreateIterationField {
+  createProjectV2Field(
+    input: {
+      projectId: "PVT_kwHOAlw_pM4BKSh6"
+      dataType: ITERATION
+      name: "Sprint"
+      iterationDuration: 7
+    }
+  ) {
+    projectV2Field {
+      id
+      name
+      dataType
+    }
+  }
+}

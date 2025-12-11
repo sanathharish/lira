@@ -1,0 +1,28 @@
+query GetProjectFields {
+  node(id: "PVT_kwHOAlw_pM4BKSh6") {
+    __typename
+    ... on ProjectV2 {
+      id
+      title
+      fields(first: 50) {
+        nodes {
+          __typename
+          ... on ProjectV2FieldCommon {
+            id
+            name
+            dataType
+          }
+          ... on ProjectV2SingleSelectField {
+            id
+            name
+            dataType
+            options {
+              id
+              name
+            }
+          }
+        }
+      }
+    }
+  }
+}

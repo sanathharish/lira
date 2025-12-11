@@ -1,0 +1,17 @@
+query GetIterations {
+  node(id: "PVTIF_lAHOAlw_pM4BKSh6zg6NA3Y") {
+    __typename
+    ... on ProjectV2IterationField {
+      id
+      name
+      configuration {
+        iterations {
+          id
+          title
+          duration
+          startDate
+        }
+      }
+    }
+  }
+}

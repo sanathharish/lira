@@ -1,0 +1,6 @@
+query {
+  nodeId: nodeByUrl(url: "https://github.com/users/sanathharish/projects/9") {
+    __typename
+    id
+  }
+}
